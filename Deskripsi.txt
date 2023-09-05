@@ -1,0 +1,6 @@
+1. Node 1,2, node tambahan & root node memakai painlessmesh
+2. Untuk mengiirim data pada painlesshmesh memakai arduinoJson v6
+3. Root Node tidak bisa mengakses internet karena memakai painlessmesh
+4. Root Node menjembatani data ke Aggregat untuk mengirim data ke database
+5. Dari aggregat data dikirim via MQTT ke Node-Red
+6. Dari Node-Red node MQTT-in menyambng dengan Node Firebase
